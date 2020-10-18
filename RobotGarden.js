@@ -8,8 +8,7 @@ setInterval(function () {
         if (!err) {
             console.log(`temp: ${temperature}C, humidity: ${humidity}%`);
             file.push({
-                Temp: Math.round(temperature * 100) / 100,
-                Humidity: Math.round(humidity * 100) / 100
+                y: Math.round(temperature * 100) / 100 
             });
         }
     });

@@ -1,0 +1,19 @@
+{
+  "name": "robotgarden",
+  "version": "1.0.0",
+  "description": "",
+  "main": "RobotGarden.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jSquaredSolutions/RobotGarden.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jSquaredSolutions/RobotGarden/issues"
+  },
+  "homepage": "https://github.com/jSquaredSolutions/RobotGarden#readme"
+}
