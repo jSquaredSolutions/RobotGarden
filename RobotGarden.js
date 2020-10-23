@@ -15,4 +15,4 @@ setInterval(function () {
     fs.writeFile(fileName, JSON.stringify(file), function (err) {
         if (err) return console.log(err);
     });
-}, 3000);
+}, 90000);
