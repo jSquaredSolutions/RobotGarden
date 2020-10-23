@@ -15,5 +15,9 @@
   "bugs": {
     "url": "https://github.com/jSquaredSolutions/RobotGarden/issues"
   },
-  "homepage": "https://github.com/jSquaredSolutions/RobotGarden#readme"
+  "homepage": "https://github.com/jSquaredSolutions/RobotGarden#readme",
+  "dependencies": {
+    "i2c-seesaw-moisture-sensor": "^1.0.1",
+    "node-dht-sensor": "^0.4.3"
+  }
 }
