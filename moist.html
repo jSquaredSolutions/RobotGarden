@@ -35,7 +35,7 @@
         .then(function (data) {
 
             dataset = data.filter(function (el, index) {
-                return index >= data.length - 300;
+                return index >= data.length - 600;
             });
 
             // 2. Use the margin convention practice 
@@ -44,7 +44,7 @@
                 , height = window.innerHeight - margin.top - margin.bottom; // Use the window's height
 
             // The number of datapoints
-            var n = 300;
+            var n = 600;
 
             // 5. X scale will use the index of our data
             var xScale = d3.scaleLinear()
